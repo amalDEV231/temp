@@ -1,0 +1,44 @@
+.main{
+    margin-top: 100px;
+}
+.search-input{
+    width: 600px;
+    display: block;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 500ms linear;
+}
+.logo-img{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.buttons{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.b1{
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: all 250ms ease-in-out;
+    opacity: .5;
+
+}    
+.b1:hover{
+    opacity: 1;
+    animation: bounce 1s;
+}
+@keyframes bounce {
+   
+  
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+  }
